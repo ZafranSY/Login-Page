@@ -1,0 +1,225 @@
+.taglinebar {
+  background-color: rgb(112, 68, 186);
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  height: 30px;
+  text-align: center;
+}
+#logo {
+  width: max(50px, 4vw);
+  aspect-ratio: 35 / 35;
+  padding: 0.4rem;
+  top: 40px;
+  left: 0;
+  padding-right: 10px;
+  z-index: -100;
+}
+.navbar1 {
+  background-color: #fff;
+  color: #0e3548;
+
+  height: 25px;
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  position: fixed;
+  top: 35px;
+  left: 0;
+  border-bottom: 2px groove #0e3548;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  align-items: center;
+}
+.img-container h1 {
+  margin: 0;
+  padding-right: 0px;
+}
+.navbar1 a {
+  text-decoration: none;
+  color: #423561;
+  text-shadow: #8983a6;
+  font-family: calibri;
+  font-size: 20px;
+  margin: 0;
+  padding-left: 0px;
+  margin-right: 40px;
+}
+.navbar1 ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+  font-weight: bold;
+}
+
+.navbar1 ul a {
+  margin-right: 30px;
+  padding: 10px;
+  font-family: calibri;
+  font-size: 20px;
+}
+
+/* section{
+   
+   
+
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  min-height: 100vh;
+  background-color: #f6f4ff;
+}
+
+section header {
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 1px solid rgb(226, 211, 249);
+  width: 90%;
+  padding-bottom: 10px;
+  margin: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section p {
+  letter-spacing: 0.3px;
+  line-height: 1.5pc;
+  margin: 5px;
+  margin-left: 30px;
+  padding: 10px;
+  text-align: left;
+}
+.p-header {
+  width: 90%;
+  border-top: 1px solid rgb(231, 220, 247);
+}
+main {
+  display: grid;
+  place-items: center;
+}
+.introduction p::before {
+  content: "What is Node.js";
+}
+.sidebar {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  margin: 20px;
+  margin-right: 0px;
+  padding: 0px;
+  margin-top: 120px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+#navbar a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  margin: 0 20px;
+  color: #000;
+  transition: text-indent 1s ease-out;
+  transition: font-weight 1s ease-out;
+}
+
+#navbar a:hover {
+  font-weight: 0;
+  font-size: 20px;
+}
+#navbar .header {
+  padding: 5px 0;
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 500;
+  color: #4f3e75;
+}
+#navbar ul {
+  margin: 0px;
+  padding: 0;
+}
+#navbar li {
+  list-style: none;
+  border-top: 1px solid #dbdbdb;
+  margin: 10px;
+  padding: 5px 0;
+}
+#navbar li:hover {
+  background-color: #e0daff;
+}
+.nodejsImg {
+  width: max(40px, 15vw);
+  aspect-ratio: 13 / 5;
+  margin: 10px;
+}
+code {
+  background-color: white;
+  width: 70%;
+  display: block;
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  padding: 0 15px;
+  margin: auto;
+}
+h7 {
+  margin: 40px;
+  font-size: 20px;
+  font-weight: 450;
+  padding: 20px 0;
+  line-height: 50px;
+}
+
+section ul {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+section li {
+  margin: 5px;
+  line-height: 20px;
+}
+span {
+  font-weight: bold;
+}
+.objimg {
+  width: 40%;
+  margin: 30px auto;
+}
+@media only screen and (min-width: 705px) {
+  body {
+    flex-direction: row;
+  }
+  main {
+    margin: 20px;
+    margin-top: 120px;
+    margin-left: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  #navbar {
+    width: 300px;
+  }
+  .sidebar {
+    position: fixed;
+    height: 77%;
+    margin-bottom: 20px;
+  }
+}
